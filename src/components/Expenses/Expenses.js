@@ -5,13 +5,10 @@ import ExpensesList from './ExpensesList';
 import './Expenses.css'
 
 const Expenses = (props) => {
-
     
-
     const [filterYear, setFilterYear] = useState('2020');
 
     const dropdownDataHandler = (selectedYear) => {
-        console.log("dropdown",selectedYear);
         setFilterYear(selectedYear)
     };
 
